@@ -10,7 +10,7 @@ clf = joblib.load("digits_cls.pkl")
 # Read the input image 
 im = cv2.imread("asg_tag.jpg")
 
-im = im[780:825, 895:935]
+# im = im[780:825, 895:935]
 # im = im[780:825, 945:985]
 # im = im[780:825, 995:1035]
 
