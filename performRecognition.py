@@ -8,7 +8,10 @@ import numpy as np
 clf = joblib.load("digits_cls.pkl")
 
 # Read the input image 
-im = cv2.imread("asg_tag.jpg")
+im = cv2.imread("test.jpg")
+
+# Below is the hard-coded co-ordinates for digits in the image
+# Get the digit images dynamically using contour detection
 
 # im = im[780:825, 895:935]
 # im = im[780:825, 945:985]
