@@ -13,6 +13,7 @@ im = cv2.imread("test.jpg")
 # Below is the hard-coded co-ordinates for digits in the image
 # Get the digit images dynamically using contour detection
 
+# PiCam
 # im = im[780:825, 895:935]
 # im = im[780:825, 945:985]
 # im = im[780:825, 995:1035]
